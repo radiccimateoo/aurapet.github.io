@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+
+    <style>
+        .card-container {
+            max-width: 540px;
+            margin: auto;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="justify-content-center align-items-center m-auto"></div>
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="chifle-con-punta.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio1">
+                    <p class="card-text fw-bold fs-3">Chifle con punta</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK104</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio2">
+                    <p class="card-text fw-bold fs-3">Soga con dos pelotas</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK160</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card3">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="3.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio3">
+                    <p class="card-text fw-bold fs-3">Pelota de hilo</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK154</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card4">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="6.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio4">
+                    <p class="card-text fw-bold fs-3">Mordillo con chupete</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK55</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card5">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="13.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio5">
+                    <p class="card-text fw-bold fs-3">Pelota de colores</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK83</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card6">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="7.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio6">
+                    <p class="card-text fw-bold fs-3">Mordillo chupete sonajero</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK214</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card7">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="9.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio7">
+                    <p class="card-text fw-bold fs-3">Pelotas con soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK16</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card8">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="11.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio8">
+                    <p class="card-text fw-bold fs-3">Hueso de colores</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card9">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="12.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio9">
+                    <p class="card-text fw-bold fs-3">Pelota porta alimento</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK162</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card10">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="cepillo.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio10">
+                    <p class="card-text fw-bold fs-3">Mordillo transparente con chifle</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK 98</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card11">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="14.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio11">
+                    <p class="card-text fw-bold fs-3">Mordillo de goma</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card12">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="15.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio12">
+                    <p class="card-text fw-bold fs-3">Pelota de hilo con plumas</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK219</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card13">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="correa_extensible.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" class="form-control form-control-sm border border-success mb-2 text-center"
+                        id="precio13">
+                    <p class="card-text fw-bold fs-3">Correa extensible x 3 mts</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="correa_extensible.jpg" class="img-fluid rounded-start" alt="Correa extensible">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-1"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Correa extensible x 5 mts</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK 81</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segundo contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="4.jpg" class="img-fluid rounded-start" alt="Pelota con plumas">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-2"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota con plumas</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK219-2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tercer contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="56.jpg" class="img-fluid rounded-start" alt="Arnes de colores">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-3"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Arnes de colores</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK9</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cuarto contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="24.jpg" class="img-fluid rounded-start" alt="Raton de hilo con plumas">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-4" 
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Raton de hilo con plumas</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK138</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quinto contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="25.jpg" class="img-fluid rounded-start" alt="Pala de residuo">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-5" 
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pala de residuo</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK8</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sexto contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="26.jpg" class="img-fluid rounded-start" alt="Collar estampado">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-6" 
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Collar estampado</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK91</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Séptimo contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="27.jpg" class="img-fluid rounded-start" alt="Hueso de goma">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-7" 
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Hueso de goma</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK111</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Octavo contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="29.jpg" class="img-fluid rounded-start" alt="Cardina 15x10.5">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-8" 
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cardina 15x10.5</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK52</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Noveno contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="30.jpg" class="img-fluid rounded-start" alt="Raton de colores">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-9" 
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Raton de colores</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK102</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Décimo contenedor -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="pelota_de_cuerda.jpg" class="img-fluid rounded-start" alt="Pelota de cuerda">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-10"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota de cuerda</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK261</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="32.jpg" class="img-fluid rounded-start" alt="Pelota de cuerda">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="32.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Mordillo de goma</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK102-1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="hueso-con-soga.jpg" class="img-fluid rounded-start" alt="Pelota de cuerda">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="33.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Hueso con soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK259</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card1">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="34.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-34.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota con huesito</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK22</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card2">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="57.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-57.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota con patitas y soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK151</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card3">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="36.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-36.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cañas para gato</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card4">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="41.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-41.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cepillo doble de acero</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK7</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card5">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="cardinal.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-cardinal.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cardinal S (chica)</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK 51</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card6">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="Cepillo_rodillo_saca_pelo.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-Cepillo_rodillo_saca_pelo.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cepillo rodillo saca pelo</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK 193</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container" id="card7">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="17.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="input-17.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Mordillo con soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK61</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="19.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="19.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Mordillo de soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK124</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="20.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="20.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cañas para gato</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK35</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="21.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="21.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Mordillo de hueso con soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK204</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="22.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="22.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota con sonajero x 4 UNIDADES</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK216</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="42.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="42.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota de goma</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK21</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="porta_bolsita.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="porta_bolsita.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Porta bolsitas</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK254</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="44.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="44.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota de goma con chifle</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK157</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="58.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="58.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Cepillo doble</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK6</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="45.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="45.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Collar ajustable con cascabel</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="46.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="46.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Collar ajustable con sonajero</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK178</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="47.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="47.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Bolsa para residuo estampada</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK24</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- a partir de aca-->>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="48.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="48.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota de rugby</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK147</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 49.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="49.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="49.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Mordillo</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK50</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 50.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="50.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="50.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota con huella</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK15</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 51.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="51.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="51.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Raton plumas</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: ZK106</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 52.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="52.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="52.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota de colores con soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK95</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 53.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="53.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="53.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota de goma con pluma</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK129</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 54.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="54.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="54.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Pelota con soga</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK115</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 55.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="55.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="55.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Rueda para perros</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK45</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjeta collar_reflectivo.jpg -->
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded card-container">
+        <div class="row g-0">
+            <div class="col-md-5">
+                <img src="collar_reflectivo.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <input type="text" id="collar_reflectivo.jpg"
+                        class="form-control form-control-sm border border-success mb-2 text-center">
+                    <p class="card-text fw-bold fs-3">Collar reflectivo</p>
+                    <hr>
+                    <p class="card-text bg-warning p-3 rounded fw-bold">Código: OZK252</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn btn-success" onclick="generatePDF()">Generar PDF</button>
+
+    <!-- hasta aca-->
+    </div>
+
+
+    <script>
+
+        function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF();
+            var startY = 20; // Posición vertical inicial
+            var pageHeight = pdf.internal.pageSize.height;
+
+            // Función para agregar una tarjeta al PDF
+            function addCardToPDF(imageSrc, title, code, price, backgroundColor) {
+                var img = new Image();
+                img.src = imageSrc;
+
+                if (startY > pageHeight - 90) {
+                    pdf.addPage(); // Agregar una nueva página
+                    startY = 20; // Reiniciar la posición vertical
+                }
+
+                // Dibujar tarjeta con borde redondeado y sombreado
+                pdf.setLineWidth(1);
+                pdf.setDrawColor(200); // Color del borde
+                pdf.setFillColor(255); // Color de fondo principal
+                pdf.roundedRect(10, startY, 170, 70, 5, 5, 'S'); // Borde redondeado
+
+                // Agregar sombra simulada
+                pdf.setDrawColor(180); // Color de sombra
+                pdf.setFillColor(230); // Color de sombra
+                pdf.roundedRect(11, startY + 1, 170, 70, 5, 5, 'FD'); // Sombra
+
+                pdf.addImage(img, 'JPEG', 15, startY + 5, 60, 60);
+
+                pdf.setFontSize(16); // Tamaño de fuente reducido
+                pdf.setFont('bold'); // Tipo de letra en negrita más fuerte
+                pdf.text(title, 85, startY + 15);
+
+                pdf.setFontSize(16); // Tamaño de fuente reducido
+                pdf.setFont('normal'); // Restablecer a tipo de letra normal
+                pdf.text(code, 85, startY + 30);
+
+                pdf.setFontSize(16); // Tamaño de fuente reducido
+                pdf.text("Precio: " + price, 85, startY + 45);
+
+                startY += 80; // Ajuste de la posición vertical para la siguiente tarjeta
+            }
+
+            // Primera tarjeta
+            var card1InputValue = document.getElementById('precio1').value;
+            var card1BackgroundColor = window.getComputedStyle(document.querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('chifle-con-punta.jpg', 'Chifle con punta', 'Código: OZK104', card1InputValue, card1BackgroundColor);
+
+            // Segunda tarjeta
+            var card2InputValue = document.getElementById('precio2').value;
+            var card2BackgroundColor = window.getComputedStyle(document.querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('2.jpg', 'Soga con dos pelotas', 'Código: OZK160', card2InputValue, card2BackgroundColor);
+
+            var card3InputValue = document.getElementById('precio3').value;
+            var card3Code = document.getElementById('card3').querySelector('.card-text.bg-warning').textContent;
+            var card3BackgroundColor = window.getComputedStyle(document.getElementById('card3').querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('3.jpg', 'Pelota de hilo', card3Code, card3InputValue, card3BackgroundColor);
+
+            var card4InputValue = document.getElementById('precio4').value;
+            var card4Code = document.getElementById('card4').querySelector('.card-text.bg-warning').textContent;
+            var card4BackgroundColor = window.getComputedStyle(document.getElementById('card4').querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('6.jpg', 'Mordillo con chupete', card4Code, card4InputValue, card4BackgroundColor);
+
+            var card5InputValue = document.getElementById('precio5').value;
+            var card5Code = document.getElementById('card5').querySelector('.card-text.bg-warning').textContent;
+            var card5BackgroundColor = window.getComputedStyle(document.getElementById('card5').querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('13.jpg', 'Pelota de colores', card5Code, card5InputValue, card5BackgroundColor);
+
+            var card6InputValue = document.getElementById('precio6').value;
+            var card6Code = document.getElementById('card6').querySelector('.card-text.bg-warning').textContent;
+            var card6BackgroundColor = window.getComputedStyle(document.getElementById('card6').querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('7.jpg', 'Mordillo chupete sonajero', card6Code, card6InputValue, card6BackgroundColor);
+
+            var card7InputValue = document.getElementById('precio7').value;
+            var card7Code = document.getElementById('card7').querySelector('.card-text.bg-warning').textContent;
+            var card7BackgroundColor = window.getComputedStyle(document.getElementById('card7').querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('9.jpg', 'Pelotas con soga', card7Code, card7InputValue, card7BackgroundColor);
+
+            var card8InputValue = document.getElementById('precio8').value;
+            var card8Code = document.getElementById('card8').querySelector('.card-text.bg-warning').textContent;
+            var card8BackgroundColor = window.getComputedStyle(document.getElementById('card8').querySelector('.card-text.bg-warning')).backgroundColor;
+            addCardToPDF('11.jpg', 'Hueso de colores', card8Code, card8InputValue, card8BackgroundColor);
+
+            var card9InputValue = document.getElementById('precio9').value;
+            var card9BackgroundColor = window.getComputedStyle(document.querySelector('#card9 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('12.jpg', 'Pelota porta alimento', 'Código: OZK162', card9InputValue, card9BackgroundColor);
+
+            // Segunda tarjeta
+            var card10InputValue = document.getElementById('precio10').value;
+            var card10BackgroundColor = window.getComputedStyle(document.querySelector('#card10 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('cepillo.jpg', 'Mordillo transparente con chifle', 'Código: OZK 98', card10InputValue, card10BackgroundColor);
+
+            // Tercera tarjeta
+            var card11InputValue = document.getElementById('precio11').value;
+            var card11BackgroundColor = window.getComputedStyle(document.querySelector('#card11 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('14.jpg', 'Mordillo de goma', 'Código: OZK1', card11InputValue, card11BackgroundColor);
+
+            // Cuarta tarjeta
+            var card12InputValue = document.getElementById('precio12').value;
+            var card12BackgroundColor = window.getComputedStyle(document.querySelector('#card12 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('15.jpg', 'Pelota de hilo con plumas', 'Código: OZK219', card12InputValue, card12BackgroundColor);
+
+            // Quinta tarjeta
+            var card13InputValue = document.getElementById('precio13').value;
+            var card13BackgroundColor = window.getComputedStyle(document.querySelector('#card13 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('correa_extensible.jpg', 'Correa extensible x 3 mts', 'Código: OZK 10', card13InputValue, card13BackgroundColor);
+
+            var card14InputValue = document.getElementById('input-1').value;
+            //var card14BackgroundColor = window.getComputedStyle(document.querySelector('#card1 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('correa_extensible.jpg', 'Correa extensible x 5 mts', 'Código: OZK 81', card14InputValue);
+
+            // Contenedor 2
+            var card15InputValue = document.getElementById('input-2').value;
+            //var card15BackgroundColor = window.getComputedStyle(document.querySelector('#card2 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('4.jpg', 'Pelota con plumas', 'Código: OZK219-2', card15InputValue);
+
+            // Contenedor 3
+            var card16InputValue = document.getElementById('input-3').value;
+            //var card16BackgroundColor = window.getComputedStyle(document.querySelector('#card3 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('56.jpg', 'Arnes de colores', 'Código: OZK9', card16InputValue);
+
+            // Contenedor 4
+            var card17InputValue = document.getElementById('input-4').value;
+            //var card17BackgroundColor = window.getComputedStyle(document.querySelector('#card4 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('24.jpg', 'Raton de hilo con plumas', 'Código: Código: OZK138', card4InputValue);
+
+            // Contenedor 5
+            var card23InputValue = document.getElementById('input-5').value;
+            //var card17BackgroundColor = window.getComputedStyle(document.querySelector('#card5 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('25.jpg', 'Pala de residuo', 'Código: OZK8', card23InputValue);
+
+            // Contenedor 6
+            var card18InputValue = document.getElementById('input-6').value;
+            //var card18BackgroundColor = window.getComputedStyle(document.querySelector('#card6 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('26.jpg', 'Collar estampado', 'Código: OZK91', card18InputValue);
+
+            // Contenedor 7
+            var card19InputValue = document.getElementById('input-7').value;
+            //var card19BackgroundColor = window.getComputedStyle(document.querySelector('#card7 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('27.jpg', 'Hueso de goma', 'Código: OZK111', card19InputValue);
+
+            // Contenedor 8
+            var card20InputValue = document.getElementById('input-8').value;
+            //var card20BackgroundColor = window.getComputedStyle(document.querySelector('#card8 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('29.jpg', 'Cardina 15x10.5', 'Código: OZK52', card20InputValue);
+
+            // Contenedor 9
+            var card21InputValue = document.getElementById('input-9').value;
+            //var card21BackgroundColor = window.getComputedStyle(document.querySelector('#card9 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('30.jpg', 'Raton de colores', 'Código: OZK102', card21InputValue);
+
+            // Contenedor 10
+            var card22InputValue = document.getElementById('input-10').value;
+            //var card10BackgroundColor = window.getComputedStyle(document.querySelector('#card10 .card-text.bg-warning')).backgroundColor;
+            addCardToPDF('pelota_de_cuerda.jpg', 'Pelota de cuerda', 'Código: OZK261', card22InputValue);
+
+            var card30InputValue = document.getElementById('input-34.jpg').value;
+            addCardToPDF('34.jpg', 'Pelota con huesito', 'Código: OZK22', card30InputValue);
+
+            var card24InputValue = document.getElementById('input-57.jpg').value;
+            addCardToPDF('57.jpg', 'Pelota con patitas y soga', 'Código: OZK151', card24InputValue);
+
+            var card25InputValue = document.getElementById('input-36.jpg').value;
+            addCardToPDF('36.jpg', 'Cañas para gato', 'Código: OZK36', card25InputValue);
+
+            var card26InputValue = document.getElementById('input-41.jpg').value;
+            addCardToPDF('41.jpg', 'Cepillo doble de acero', 'Código: OZK7', card26InputValue);
+
+            var card27InputValue = document.getElementById('input-cardinal.jpg').value;
+            addCardToPDF('cardinal.jpg', 'Cardinal S (chica)', 'Código: OZK 51', card27InputValue);
+
+            var card28InputValue = document.getElementById('input-Cepillo_rodillo_saca_pelo.jpg').value;
+            addCardToPDF('Cepillo_rodillo_saca_pelo.jpg', 'Cepillo rodillo saca pelo', 'Código: OZK 193', card28InputValue);
+
+            var card29InputValue = document.getElementById('input-17.jpg').value;
+            addCardToPDF('17.jpg', 'Mordillo con soga', 'Código: OZK61', card29InputValue);
+
+            // Tarjeta 19.jpg
+            var card31InputValue = document.getElementById('19.jpg').value;
+            addCardToPDF('19.jpg', 'Mordillo de soga', 'Código: OZK124', card31InputValue);
+
+            // Tarjeta 20.jpg
+            var card32InputValue = document.getElementById('20.jpg').value;
+            addCardToPDF('20.jpg', 'Cañas para gato', 'Código: OZK35', card32InputValue);
+
+            // Tarjeta 21.jpg
+            var card33InputValue = document.getElementById('21.jpg').value;
+            addCardToPDF('21.jpg', 'Mordillo de hueso con soga', 'Código: OZK204', card33InputValue);
+
+            // Tarjeta 22.jpg
+            var card34InputValue = document.getElementById('22.jpg').value;
+            addCardToPDF('22.jpg', 'Pelota con sonajero x 4 UNIDADES', 'Código: OZK216', card34InputValue);
+
+            // Tarjeta 42.jpg
+            var card35InputValue = document.getElementById('42.jpg').value;
+            addCardToPDF('42.jpg', 'Pelota de goma', 'Código: OZK21', card35InputValue);
+
+            // Tarjeta porta_bolsita.jpg
+            var portaBolsitaInputValue = document.getElementById('porta_bolsita.jpg').value;
+            addCardToPDF('porta_bolsita.jpg', 'Porta bolsitas', 'Código: OZK254', portaBolsitaInputValue);
+
+            // Tarjeta 44.jpg
+            var card36InputValue = document.getElementById('44.jpg').value;
+            addCardToPDF('44.jpg', 'Pelota de goma con chifle', 'Código: OZK157', card36InputValue);
+
+            // Tarjeta 58.jpg
+            var card37InputValue = document.getElementById('58.jpg').value;
+            addCardToPDF('58.jpg', 'Cepillo doble', 'Código: OZK6', card37InputValue);
+
+            // Tarjeta 45.jpg
+            var card38InputValue = document.getElementById('45.jpg').value;
+            addCardToPDF('45.jpg', 'Collar ajustable con cascabel', 'Código: OZK100', card38InputValue);
+
+            // Tarjeta 46.jpg
+            var card39InputValue = document.getElementById('46.jpg').value;
+            addCardToPDF('46.jpg', 'Collar ajustable con sonajero', 'Código: OZK178', card39InputValue);
+
+            // Tarjeta 47.jpg
+            var card40InputValue = document.getElementById('47.jpg').value;
+            addCardToPDF('47.jpg', 'Bolsa para residuo estampada', 'Código: OZK24', card40InputValue);
+
+            var card48InputValue = document.getElementById('48.jpg').value;
+            addCardToPDF('48.jpg', 'Pelota de rugby', 'Código: OZK147', card48InputValue);
+
+            // Tarjeta 49.jpg
+            var card49InputValue = document.getElementById('49.jpg').value;
+            addCardToPDF('49.jpg', 'Mordillo', 'Código: OZK50', card49InputValue);
+
+            // Tarjeta 50.jpg
+            var card50InputValue = document.getElementById('50.jpg').value;
+            addCardToPDF('50.jpg', 'Pelota con huella', 'Código: OZK15', card50InputValue);
+
+            // Tarjeta 51.jpg
+            var card51InputValue = document.getElementById('51.jpg').value;
+            addCardToPDF('51.jpg', 'Raton plumas', 'Código: ZK106', card51InputValue);
+
+            // Tarjeta 52.jpg
+            var card52InputValue = document.getElementById('52.jpg').value;
+            addCardToPDF('52.jpg', 'Pelota de colores con soga', 'Código: OZK95', card52InputValue);
+
+            // Tarjeta 53.jpg
+            var card53InputValue = document.getElementById('53.jpg').value;
+            addCardToPDF('53.jpg', 'Pelota de goma con pluma', 'Código: OZK129', card53InputValue);
+
+            // Tarjeta 54.jpg
+            var card54InputValue = document.getElementById('54.jpg').value;
+            addCardToPDF('54.jpg', 'Pelota con soga', 'Código: OZK115', card54InputValue);
+
+            // Tarjeta 55.jpg
+            var card55InputValue = document.getElementById('55.jpg').value;
+            addCardToPDF('55.jpg', 'Rueda para perros', 'Código: OZK45', card55InputValue);
+
+            // Tarjeta collar_reflectivo.jpg
+            var collarReflectivoInputValue = document.getElementById('collar_reflectivo.jpg').value;
+            addCardToPDF('collar_reflectivo.jpg', 'Collar reflectivo', 'Código: OZK252', collarReflectivoInputValue);
+
+            var card56InputValue = document.getElementById('32.jpg').value;
+            addCardToPDF('32.jpg', 'Mordillo de goma', 'Código: OZK102-1', card56InputValue);
+
+            var card57InputValue = document.getElementById('33.jpg').value;
+            addCardToPDF('hueso-con-soga.jpg', 'Hueso con soga', 'Código: OZK259', card57InputValue);
+
+            // Guardar el documento
+            pdf.save('catalogo.pdf');
+        }
+
+
+
+    </script>
+</body>
+
+</html>
